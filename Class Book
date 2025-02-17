@@ -1,0 +1,20 @@
+class Book:
+    def __init__(Villanueva, title, author, year_published):
+        Villanueva.title = title
+        Villanueva.author = author
+        Villanueva.year_published = year_published
+
+    def describe(Villanueva):
+        print(f"Title: {Villanueva.title}")
+        print(f"Author: {Villanueva.author}")
+        print(f"Year Published: {Villanueva.year_published}")
+
+book1 = Book("Our Perfectly Imperfect Love Story", "WL", 2023)
+book2 = Book("A Scholar's Heart", "LJ Villanueva", 2023)
+book3 = Book("The Promise os Us", "Warren Cabigayan", 2023)
+
+book1.describe()
+print()
+book2.describe()
+print()
+book3.describe()
