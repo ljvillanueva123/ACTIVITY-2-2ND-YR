@@ -1,0 +1,20 @@
+class Employee:
+    def __init__(Villanueva, name, position, salary):
+        Villanueva.name = name
+        Villanueva.position = position
+        Villanueva.salary = salary
+
+    def give_raise(Villanueva, amount):
+        Villanueva.salary += amount
+        print(f"Salary increased by: ${amount}")
+
+    def display_employee(Villanueva):
+        print(f"Employee Name: {Villanueva.name}")
+        print(f"Position: {Villanueva.position}")
+        print(f"Salary: ${Villanueva.salary}")
+
+employee = Employee("Villanueva LJ", "UX/UI Designer", 93000)
+
+employee.give_raise(45000)
+
+employee.display_employee()
